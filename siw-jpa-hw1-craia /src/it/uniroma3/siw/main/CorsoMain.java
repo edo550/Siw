@@ -9,7 +9,7 @@ import it.uniroma3.siw.model.Corso;
 
 public class CorsoMain {
 	public static void main(String[] args) {
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("products-unit");
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("corsi-unit");
 		EntityManager em = emf.createEntityManager();
 		
 		Corso corso = new Corso();
